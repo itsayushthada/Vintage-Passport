@@ -1,0 +1,84 @@
+/* CSS for About US Page */
+
+body{
+	background-image:url("images/Pattern/pattern9.jpg");
+}
+h1,h2,p{
+	text-shadow: 2px 1px green;
+	font-family:Arvo;
+}
+.subhead{
+	font-size:40px;
+}
+h1{
+	font-size:90px;
+}
+h2{
+	font-size:30px;
+}
+p{
+	font-size:20px;
+}
+.center,.about{
+    text-align: center;
+}
+
+/* * CSS for Events Page */
+#eventdata{
+	width:65%;
+	min-height:200px;
+	background-color:rgba(0,0,0,0.75);
+	margin-top:160px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	text-shadow: 2px 1px green;
+	font-family:Arvo;
+	font-size:20px;
+	color:white;
+}
+
+input{
+	width:290px;
+	font-size:30px;
+	height:40px;
+	text-align:center;
+	background-image:url("images/Pattern/pattern9.jpg");
+}
+.buttonholder{
+	margin-left:auto;
+	margin-right:auto;
+	width:150px;
+	height:70px;
+	margin-top:160px;
+	background-color:rgba(0,0,0,0.8);	
+	padding:15px;
+}
+
+#button{
+	background-color:rgba(0,0,0,0.8);
+	width:150px;
+	height:70px;
+	font-size:20px;
+}
+
+.button:hover{
+	background-color:rgba(0,0,0,0.93);
+}
+
+#result{
+	width:75%;
+	min-height:300px;
+	background-color:rgba(0,0,0,0.6);
+	margin-left:270px;
+	border:10px solid rgba(0,0,0,0);
+	margin-top:160px;
+	margin-bottom:50px;
+	border-radius:40px;
+}
+
+.foot{
+	width:100%;
+	min-height:250px;
+	background-color:rgba(0,0,0,0.75);
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cities</title>
+		<link rel="stylesheet" href="https://goo.gl/xkw97e"/>
+		<link rel="stylesheet" type="text/css" href="city.css"/>
+		<link rel="stylesheet" type="text/css" href="style2.css"/>
+		<link rel="stylesheet" href="https://goo.gl/xkw97e"/>	
+		<link rel="shortcut icon" href="images/logof.ico"/>
+		
+		<script type="text/javascript" src="js/scroll.js"></script>
+		<script type="text/javascript" src="https://goo.gl/4z1pk1"></script>
+		<script type="text/javascript" src="js/scrollandfix.js"></script>
+		<script type="text/javascript" src="js/template.js"></script>
+		<script type="text/javascript" src="js/navigationTemplate.js"></script>
+		<script type="text/javascript" src="js/category.js"></script>
+		
+		<form id="template_data" action="template.php" target="_blank" method="post">
+			<input type="hidden" id="object1" name="object1" value="null"/>
+			<input type="hidden" id="object2" name="object2" value="null"/>
+		</form>
+		
+		<form id="template2_data" action="template2.php" target="_blank" method="post">
+			<input type="hidden" id="objectx" name="objectx" value="null"/>
+		</form>
+		<?php require "php/connection.php";?>
+	</head>
+		
+	<body>
+
+	    <!-- Header-->
+		<div class="header">
+			<!-- Logo -->
+			<div class="logo">
+				<a id="logo1" href="index.html" style="text-decoration:none;color:black;text-shadow:0px 0px 0px;padding-left:8px;">
+					<span class="fa-stack fa-4x" style="color:black;">
+						<i class="fa fa-circle-thin fa-stack-2x"></i>
+						<i class="fa fa-vimeo-square fa-stack-1x" ></i>
+					</span><br/>&nbsp &nbsp VintagePassport
+				</a>
+			</div>
+			
+			<!-- Navigation Bar -->
+			<div class="nav-bar">
+				<ul>
+					<li>
+						<a id="icon1" align="center" href="city.html" class="items" title="Cities" data-pqrs="city">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle-thin fa-stack-2x"></i>
+								<i class="fa fa-bed fa-stack-1x"></i>
+							</span>
+							<br/>&nbsp Cities
+						</a>
+					</li>
+					
+					<li>
+						<a id="icon2" align="center" class="items" title="Top Places" data-pqrs="Tourist Attractions">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle-thin fa-stack-2x"></i>
+								<i class="fa fa-bed fa-stack-1x"></i>
+							</span>
+							<br/>Top Places
+						</a>
+					</li>
+					
+					<li>
+						<a id="icon3" align="center" class="items" title="Hotels" data-pqrs="Hotels">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle-thin fa-stack-2x"></i>
+								<i class="fa fa-bed fa-stack-1x"></i>
+							</span>
+							<br/>&nbsp Hotels
+						</a>
+					</li>
+					
+					<li>
+						<a id="icon4" class="items" align="center" title="Events" data-pqrs="Events">  &nbsp
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle-thin fa-stack-2x"></i>
+								<i class="fa fa-tags fa-stack-1x"></i>
+							</span>
+							<br/>Events
+						</a>
+					</li>
+					
+					<li>
+						<a id="icon5" href="aboutus.html" align="center" class="items" title="About us" data-pqrs="about">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle-thin fa-stack-2x"></i>
+								<i class="fa fa-users fa-stack-1x"></i>
+							</span>
+							<br/>About us
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<br><br><br>
+		<div id="search_bar">
+			Cities
+		</div>
+		<br><br>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">
+			<span class="fa-stack fa-lg">
+				<i class="fa fa-circle-thin fa-stack-2x"></i>
+				<i class="fa fa-arrow-up fa-stack-1x"></i>
+			</span>
+		</button>
+		
+		<div class="row">
+			<div class="column">
+				<div class="maze">
+					<p align="center" data-abcd="Agra">Agra</p>
+					<img src="city_images/Agra/agra2.jpg" alt="image" height=300px width=100% />
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Amritsar" align="center">Amritsar</p>
+					<img src="city_images/Amritsar/amritsar1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Chennai" align="center" >Chennai</p>
+					<img src="city_images/Chennai/chennai1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Delhi" align="center">Delhi</p>
+					<img src="city_images/Delhi/delhi1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Goa" align="center">Goa</p>
+					<img src="city_images/Goa/goa1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Jaipur" align="center">Jaipur</p>
+					<img src="city_images/Jaipur/Jaipur2.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Kanyakumari" align="center">Kanyakumari</p>
+					<img src="city_images/Kanyakumari/kanyakumari1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Kolkata" align="center">Kolkata</p>
+					<img src="city_images/Kolkata/kolkata1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Ladhak" align="center">Ladhak</p>
+					<img src="city_images/Ladhak/ladhak1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>			
+		</div>
+		
+		<div class="row">
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Manali" align="center">Manali</p>
+					<img src="city_images/Manali/manali1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Mumbai" align="center">Mumbai</p>
+					<img src="city_images/Mumbai/mumbai1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+		
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Shiimla" align="center">Shimla</p>
+					<img src="city_images/Shimla/Shimla1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Srinagar" align="center">Srinagar</p>
+					<img src="city_images/Srinagar/srinagar1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Trivandrum" align="center">Trivandrum</p>
+					<img src="city_images/Trivandrum/Trivandrum1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+		
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Udaipur" align="center">Udaipur</p>
+					<img src="city_images/Udaipur/udaipur1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Bangalore" align="center">Bangalore</p>
+					<img src="city_images/Bangalore/Bangalore1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Bodhgaya" align="center">Bodh Gaya</p>
+					<img src="city_images/Bodhgaya/Bodhgaya1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Dehradun" align="center">Dehradun</p>
+					<img src="city_images/Dehradun/Dehradun1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Hyderabad" align="center">Hyderabad</p>
+					<img src="city_images/Hyderabad/Hyderabad1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+			
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Portblair" align="center">Port Blair</p>
+					<img src="city_images/Portblair/Portblair1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+		
+			<div class="column">
+				<div class="maze">
+					<p data-abcd="Pune" align="center">Pune</p>
+					<img src="city_images/Pune/Pune1.jpg" alt="image" height=300px width=100%/>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
